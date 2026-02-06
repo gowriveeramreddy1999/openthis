@@ -7,7 +7,7 @@
   <style>
     body {
       margin: 0;
-      height: 100vh;
+      min-height: 100vh;
       background: linear-gradient(135deg, #ff5f9e, #ff85b3, #ffc1d9);
       display: flex;
       align-items: center;
@@ -23,6 +23,7 @@
       text-align: center;
       box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
       animation: fadeIn 2s ease-in-out;
+      max-width: 600px;
     }
 
     img {
@@ -36,19 +37,27 @@
     }
 
     h1 {
-      font-size: 2.8rem;
+      font-size: 2.6rem;
       color: #ffffff;
       margin: 10px 0;
     }
 
     h2 {
-      font-size: 2rem;
+      font-size: 1.9rem;
       color: #ffe6f0;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
+    }
+
+    .message {
+      font-size: 1.1rem;
+      color: #ffffff;
+      margin-top: 20px;
+      line-height: 1.7;
     }
 
     .heart {
-      font-size: 3.5rem;
+      font-size: 3.2rem;
+      margin-top: 15px;
       animation: heartbeat 1.3s infinite;
     }
 
@@ -77,11 +86,27 @@
 <body>
 
   <div class="container">
-    <!-- Put your image in the same folder and name it photo.jpg -->
     <img src="photo.jpg" alt="Photo">
 
     <h1>🎂 Happy Birthday 🎉</h1>
     <h2>❤️ Happy Valentine’s Day ❤️</h2>
+
+    <p class="message">
+      The day I first saw you, you seemed calm and good-looking.<br><br>
+
+      When we met, I couldn’t believe we were really starting a relationship that day.<br><br>
+
+      Even when I don’t call or text, I always think about you and what I can do better.<br><br>
+
+      I’ve felt lonely since childhood and always wished for someone beside me who would show me love.<br><br>
+
+      Sometimes when I don’t feel that, I get angry and shout — I’m sorry for that.
+      I’ll try to control it, and I hope you’ll try to express your feelings too.<br><br>
+
+      I hope from this Valentine’s Day we understand each other better and grow together.<br><br>
+
+      <strong>I love you 💗</strong>
+    </p>
 
     <div class="heart">💖</div>
   </div>
